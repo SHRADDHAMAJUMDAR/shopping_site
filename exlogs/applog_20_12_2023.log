@@ -1,0 +1,2 @@
+
+[ 20-12-23 08:10:19 ] [at]:connect_config.php =>> pg_connect(): Unable to connect to PostgreSQL server: FATAL:  database &quot;stock_project1&quot; does not exist

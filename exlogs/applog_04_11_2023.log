@@ -1,0 +1,9 @@
+[ 04-11-2023 10:09:43 ] Hi
+
+[ 04-11-23 11:20:40 ] [at]:loginController.php =>> pg_query(): Query failed: ERROR:  relation &quot;faculty_det&quot; does not exist
+LINE 1: ...t||' '||name as ename from mas_user mu INNER JOIN faculty_de...
+                                                             ^
+
+[ 04-11-23 11:20:58 ] [at]:loginController.php =>> pg_query(): Query failed: ERROR:  relation &quot;faculty_det&quot; does not exist
+LINE 1: ...t||' '||name as ename from mas_user mu INNER JOIN faculty_de...
+                                                             ^

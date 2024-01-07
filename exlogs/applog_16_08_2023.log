@@ -1,0 +1,96 @@
+
+[ 16-08-23 10:14:51 ] pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;127.0.0.1&quot; and accepting
+	TCP/IP connections on port 5432?
+
+[ 16-08-23 10:18:26 ] pg_query(): Query failed: ERROR:  syntax error at end of input
+LINE 1: ...pid where uname = 'super' and fd.access_validity &gt; now() and
+                                                                       ^
+
+[ 16-08-23 10:20:29 ] Resources released.
+
+[ 16-08-23 10:21:32 ] pg_query(): Query failed: ERROR:  syntax error at end of input
+LINE 1: ...pid where uname = 'super' and fd.access_validity &gt; now() and
+                                                                       ^
+
+[ 16-08-23 10:21:32 ] Resources released.
+
+[ 16-08-23 10:25:20 ] [at]:D:\installations\xampp\htdocs\exampoint\controllers\loginController.php : pg_query(): Query failed: ERROR:  syntax error at end of input
+LINE 1: ...pid where uname = 'super' and fd.access_validity &gt; now() and
+                                                                       ^
+
+[ 16-08-23 10:25:20 ] Resources released.
+
+[ 16-08-23 10:28:17 ] Resources released.
+
+[ 16-08-23 10:29:26 ] [at]:\loginController.php : pg_query(): Query failed: ERROR:  syntax error at end of input
+LINE 1: ...pid where uname = 'super' and fd.access_validity &gt; now() and
+                                                                       ^
+
+[ 16-08-23 10:29:26 ] Resources released.
+
+[ 16-08-23 10:30:04 ] [at]:\loginController.php =>> pg_query(): Query failed: ERROR:  syntax error at end of input
+LINE 1: ...pid where uname = 'super' and fd.access_validity &gt; now() and
+                                                                       ^
+
+[ 16-08-23 10:30:04 ] Resources released.
+
+[ 16-08-23 10:32:02 ] [at]:\connect_config.php =>> pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;127.0.0.1&quot; and accepting
+	TCP/IP connections on port 5432?
+
+[ 16-08-23 10:32:47 ] [at]:\loginController.php =>> pg_query(): Query failed: ERROR:  syntax error at end of input
+LINE 1: ...pid where uname = 'super' and fd.access_validity &gt; now() and
+                                                                       ^
+
+[ 16-08-23 10:32:47 ] Closing connection.
+
+[ 16-08-23 10:47:08 ] Closing connection.
+
+[ 16-08-23 10:50:13 ] [at]:\addEditCrsModMap.php =>> pg_query(): Query failed: ERROR:  syntax error at or near &quot;selected&quot;
+LINE 1: selected save_course_mod_map('TCP/IP', 4)
+        ^
+
+[ 16-08-23 10:57:00 ] Closing connection.
+
+[ 16-08-23 10:57:49 ] [at]:\addEditCnd.php =>> pg_execute(): Query failed: ERROR:  bind message supplies 10 parameters, but prepared statement &quot;cnd_qry&quot; requires 11
+
+[ 16-08-23 10:57:49 ] Closing connection.
+
+[ 16-08-23 10:59:07 ] Closing connection.
+
+[ 16-08-23 11:02:30 ] Closing result.
+
+[ 16-08-23 11:06:24 ] [at]:\addCndCrsReg.php =>> pg_query(): Query failed: ERROR:  syntax error at or near &quot;selected&quot;
+LINE 1: selected save_cnd_course_reg(4, 3) as crs_reg
+        ^
+
+[ 16-08-23 11:06:24 ] Closing connection.
+
+[ 16-08-23 11:12:08 ] [at]:\addEditCourse.php =>> pg_prepare(): Query failed: ERROR:  relation &quot;course_dets&quot; does not exist
+LINE 1: UPDATE course_dets set crs_code= $1, crs_name = $2,  crs_dur...
+               ^
+
+[ 16-08-23 11:14:22 ] Closing connection.
+
+[ 16-08-23 04:17:07 ] [at]:\addEditQs.php =>> pg_prepare(): Query failed: ERROR:  syntax error at or near &quot;UPDATES&quot;
+LINE 1: UPDATES mas_qsbank SET qs_txt_eng = $1, opt_1 = $2, opt_2= $...
+        ^
+
+[ 16-08-23 04:20:36 ] [at]:addEditQs.php =>> pg_prepare(): Query failed: ERROR:  syntax error at or near &quot;UPDATES&quot;
+LINE 1: UPDATES mas_qsbank SET qs_txt_eng = $1, opt_1 = $2, opt_2= $...
+        ^
+
+[ 16-08-23 04:42:25 ] [at]:addEditQs.php =>> pg_prepare(): Query failed: ERROR:  syntax error at or near &quot;UPDATES&quot;
+LINE 1: UPDATES mas_qsbank SET qs_txt_eng = $1, opt_1 = $2, opt_2= $...
+        ^
+
+[ 16-08-23 04:45:13 ] [at]:addEditQsPaper.php =>> pg_query(): Query failed: ERROR:  syntax error at or near &quot;selected&quot;
+LINE 1: selected update_question_set(3, 'STQC/QS-003', '{&quot;pjd&quot;:[{&quot;se...
+        ^
+
+[ 16-08-23 04:46:19 ] [at]:addEditQsPaper.php =>> pg_query(): Query failed: ERROR:  syntax error at or near &quot;selects&quot;
+LINE 1: selects update_question_set(3, 'STQC/QS-003', '{&quot;pjd&quot;:[{&quot;seq...
+        ^
+
+[ 16-08-23 04:46:19 ] Closing connection.
